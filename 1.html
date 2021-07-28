@@ -10,6 +10,11 @@
 
 <style>
 
+#grid{
+  display : grid;
+  grid-template-columns: 200px 1fr;
+
+}
 
 a{
   color :black;
@@ -25,14 +30,23 @@ h1{
   text-align: center;
   color : black;
   font-family: 'Do Hyeon', sans-serif;
+  border-bottom :1px solid black;
+  margin : 0;
+  padding: 20px;
 }
 
 h2{
   font-family: 'Do Hyeon', sans-serif;
-
+  font-size : 30;
   color : blue;
 
 }
+ol{
+  border-right : 1px solid black;
+  margin : 0;
+  padding: 30px;
+}
+
 
 
 </style>
@@ -40,6 +54,7 @@ h2{
 </head>
 <body>
   <h1><a href="index.html">14일간 자가격리 일지</a></h1>
+<div id ="grid">
 <ol>
   <li><a href = "1.html">자가격리 1일차</a></li>
   <li><a href = "2.html">자가격리 2일차</a></li>
@@ -59,22 +74,26 @@ h2{
 
 
 
-<h2>자가격리 1일차</h2>
+    <div>
+    <h2>자가격리 1일차</h2>
 
-<p>자가격리 판정을 받고 집에왔다. 오랜만에 왔는데 집이 편안했다.
-<br>헝거게임을 보면서 밥을 먹었는데 역시 나름 방콕의 삶도 나쁘지 않다고 생각했다.
-<br></p>
-<p>
-오늘까지만 딱 놀고 할거를 하려고했으나 나의 양심상 그렇게는 안돼겠다.
-공연준비하느라 밀린게 많아 오늘부터 시작한다.
-<br> <strong> <u>가장 무서운건 헬스장을 못간다는 사실이다.</u></strong>
-방밖에 푸쉬업바랑 5kg짜리 덤벨도 못가지러가서 어머니한테 긴급 구조요청을 했다.
-<br>홈트로 최대한 근손실을 방지해보자. 친구들 같이 홈트를 해보자.
-유튜브에 권혁 검색하면 좋은 홈트자료들이 많이 나온다.
-</p>
-<br>
+    <p>자가격리 판정을 받고 집에왔다. 오랜만에 왔는데 집이 편안했다.
+    <br>헝거게임을 보면서 밥을 먹었는데 역시 나름 방콕의 삶도 나쁘지 않다고 생각했다.
+    </p>
+    <p>
+    오늘까지만 딱 놀고 할거를 하려고했으나 나의 양심상 그렇게는 안돼겠다.
+    공연준비하느라 밀린게 많아 오늘부터 시작한다.
+    <br> <strong> <u>가장 무서운건 헬스장을 못간다는 사실이다.</u></strong>
+    방밖에 푸쉬업바랑 5kg짜리 덤벨도 못가지러가서 어머니한테 긴급 구조요청을 했다.
+    <br>홈트로 최대한 근손실을 방지해보자. 친구들 같이 홈트를 해보자.
+    유튜브에 권혁 검색하면 좋은 홈트자료들이 많이 나온다.
+    </p>
+    <br>
+    </div>
+</div>
 
-<img src="subin자가격리1.jpg" width = "300">
+<img src="subin자가격리1.jpg" width = "300" class = "center">
+
 <p>
   <div id="disqus_thread"></div>
   <script>

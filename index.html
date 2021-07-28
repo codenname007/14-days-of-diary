@@ -9,6 +9,11 @@
 
 <style>
 
+#grid{
+  display : grid;
+  grid-template-columns: 200px 1fr;
+
+}
 
 a{
   color :black;
@@ -24,13 +29,21 @@ h1{
   text-align: center;
   color : black;
   font-family: 'Do Hyeon', sans-serif;
+  border-bottom :1px solid black;
+  margin : 0;
+  padding: 20px;
 }
 
 h2{
   font-family: 'Do Hyeon', sans-serif;
-
+  font-size : 30;
   color : blue;
 
+}
+ol{
+  border-right : 1px solid black;
+  margin : 0;
+  padding: 30px;
 }
 
 
@@ -40,6 +53,7 @@ h2{
 <body>
   <h1><a href="index.html">14일간 자가격리 일지</a></h1>
 <br>
+<div id ="grid">
 <ol>
   <li><a href = "1.html">자가격리 1일차</a></li>
   <li><a href = "2.html">자가격리 2일차</a></li>
@@ -57,9 +71,8 @@ h2{
   <li><a href = "14.html">자가격리 14일차</a></li>
 
 </ol>
-<br>
 
-
+<div>
 <h2>자가격리 일기장</h2>
 
 <p>
@@ -69,12 +82,13 @@ h2{
 <br>
 자가격리 기간동안 앞으로 점점 발전할꺼니까 많이 방문해 달라구~~!
 시작은 미약하지만 끝은 창대하리라!
-</p>
+</p></div>
+</div>
 
-.
 
 <br>
 <img src="subin.jpg" width = 200>
+
 <p>
   <div id="disqus_thread"></div>
   <script>
