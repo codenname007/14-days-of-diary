@@ -1,0 +1,49 @@
+#grid{
+  display : grid;
+  grid-template-columns: 200px 1fr;
+
+}
+#article{
+  padding : 20px;
+}
+.background{
+  background-color : yellow;
+}
+
+h1{
+  font-size : 40px;
+  text-align: center;
+  color : black;
+  font-family: 'Do Hyeon', sans-serif;
+  border-bottom :1px solid black;
+  margin : 0;
+  padding: 20px;
+  background-color : yellow;
+}
+
+a{
+  color :white;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+p{
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+h2{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size : 30;
+  border : 1px solid black;
+  background-color: yellow;
+  width : 180px;
+
+
+}
+ol{
+  border-right : 1px solid black;
+  color : white;
+  margin : 0;
+  padding: 30px;
+  padding-left : 60px;
+  background-image: url(별.jpg);
+}
