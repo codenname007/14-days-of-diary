@@ -9,6 +9,10 @@
 .background{
   background-color : yellow;
 }
+a{
+  color :white;
+  font-family: 'Do Hyeon', sans-serif;
+}
 
 h1{
   font-size : 40px;
@@ -21,10 +25,6 @@ h1{
   background-color : yellow;
 }
 
-a{
-  color :white;
-  font-family: 'Do Hyeon', sans-serif;
-}
 
 p{
   font-family: 'Do Hyeon', sans-serif;
@@ -46,4 +46,16 @@ ol{
   padding: 30px;
   padding-left : 60px;
   background-image: url(별.jpg);
+  height : 1100px;
+
+}
+
+img{
+  padding-left: 200px;
+  margin-top: 50px;
+}
+
+iframe{
+  padding-left:200px;
+  margin-top : 50px;
 }
