@@ -3,6 +3,21 @@
 <head>
 <title>14일간 자가격리일기 by 이수빈 - html</title>
 <meta charset = "utf-8">
+<script>
+function nightday(self){
+  var target = document.querySelector('body')
+  if(self.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    document.querySelector('h2').style.color = 'black';
+    self.value = 'day';
+  } else{
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    self.value = 'night';
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
@@ -11,15 +26,6 @@
 
 <body>
   <h1><a href="index.html"style = "color : black">14일간 자가격리 일지</a></h1>
-  <input type = "button" value ="night" onclick = "
-  document.querySelector('body').style.backgroundColor = 'black'
-  document.querySelector('body').style.color = 'white'
-  document.querySelector('h2').style.color = 'black'
-  ">
-  <input type = "button" value ="day" onclick = "
-  document.querySelector('body').style.backgroundColor = 'white'
-  document.querySelector('body').style.color = 'black'
-  ">
 
 <div id ="grid">
 <ol>
@@ -37,6 +43,10 @@
   <li><a href = "12.html">자가격리 12일차</a></li>
   <li><a href = "13.html">자가격리 13일차</a></li>
   <li><a href = "14.html">자가격리 14일차</a></li>
+  <br>
+  <input type = "button" value = "night" onclick="
+   nightday(this);
+  ">
 
 </ol>
 
