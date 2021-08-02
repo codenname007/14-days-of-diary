@@ -6,6 +6,10 @@
 #article{
   padding : 20px;
 }
+#disqus_thread{
+  padding : 0px;
+}
+
 .background{
   background-color : yellow;
 }
@@ -56,6 +60,6 @@ img{
 }
 
 iframe{
-  padding-left:200px;
+  padding-left : 200px;
   margin-top : 50px;
 }
