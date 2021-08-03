@@ -11,19 +11,14 @@
 
 
 }
-
-.background{
-  background-color : yellow;
-}
 a{
-
+  color : yellow;
   font-family: 'Do Hyeon', sans-serif;
 }
 
 h1{
   font-size : 40px;
   text-align: center;
-  color : black;
   font-family: 'Do Hyeon', sans-serif;
   border-bottom :1px solid black;
   margin : 0;
