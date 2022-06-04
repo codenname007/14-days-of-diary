@@ -1,4 +1,7 @@
-# 14-days-of-diary
+# 14-days-of-diary(생활코딩 이론강의 참고)
 
-first web project by subin.<br> 
-https://codenname007.github.io/14-days-of-diary/index.html
+## description 
+- first web project by subin.
+
+### url
+- https://codenname007.github.io/14-days-of-diary/index.html
